@@ -1,0 +1,19 @@
+{
+  "name": "zkr/parser",
+  "description": "Site parser",
+  "license": "Unlicense",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "zkr",
+      "email": "jelita.1331@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "imangazaliev/didom": "^1.13"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
