@@ -173,7 +173,7 @@ class MetalloprokatRu extends SiteParser implements Parsing {
             $this->domDocument->loadHtmlFile($file, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD | LIBXML_PARSEHUGE);
             $scope = $this->domDocument->find('.breadcrumbs_item.last .breadcrumbs_link');
             $scope = isset($scope[0]) ? $scope[0]->text() : '';
-            $requests = $this->domDocument->find('#demand ul.demands li.demand_item');
+            $requests = $this->domDocument->find('#demand ul.demands li.demand_item .demand_item');
             foreach ($requests as $request) {
                 $title = $request->find('.demand-title')[0];
                 $date = $title->find('.demand-date')[0]->text();
