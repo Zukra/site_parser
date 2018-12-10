@@ -31,7 +31,7 @@ class MetalloprokatRu extends SiteParser implements Parsing {
         // Продукция цветной металлургии
         "1066" => [
             "/tsvetmet_prokat/",
-            //        "/tsvetmet_metiz/",
+            "/tsvetmet_metiz/",
             //        "/tsvetmet/",
             //        "/tsvetmet_splavi/"
         ]
